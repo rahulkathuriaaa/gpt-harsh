@@ -3,7 +3,7 @@ import { PlaneIcon, UserIcon } from "../../constants";
 
 const Footer = () => {
   return (
-    <div className="absolute bottom-0 left-0 w-full border-t md:border-t-0 dark:border-white/20 md:border-transparent md:dark:border-transparent md:bg-vert-light-gradient bg-gray-800 md:!bg-transparent">
+    <div className="absolute bottom-0 left-0 w-full border-t md:border-t-0 dark:border-white/20 md:border-transparent md:dark:border-transparent md:bg-vert-light-gradient bg-[#05B1BB] md:!bg-transparent">
       <form className="mx-2 flex flex-row gap-3 pt-2 last:mb-2 md:last:mb-6 lg:mx-auto lg:max-w-4xl lg:pt-6">
         <div className="relative flex h-full flex-1 md:flex-col">
 
@@ -16,7 +16,7 @@ const Footer = () => {
 
 
           {/* Input */}
-          <div className="flex flex-col w-full py-2 pl-3 flex-grow md:py-3 md:pl-4 relative border border-black/10 bg-white dark:border-gray-900/50 dark:text-white rounded-md bg-[rgba(64,65,79,var(--tw-bg-opacity))]">
+          <div className="flex flex-col w-full py-2 pl-3 flex-grow md:py-3 md:pl-4 relative border border-black/10 dark:border-gray-900/50 dark:text-white rounded-md bg-[#05B1BB]">
           {/* dropdown starts */}
           <div className="md:flex items-start text-center border-b border-b-[#6c6d6e]">
 
@@ -122,7 +122,7 @@ const Footer = () => {
               tabIndex="0"
               data-id="root"
               rows="1"
-              className="m-0 w-full resize-none border-0 bg-transparent p-0 pr-7 focus:ring-0 focus-visible:ring-0 dark:bg-transparent outline-none overflow-y-hidden h-[23px] "
+              className="m-0 w-full resize-none border-0 bg-transparent p-0 pr-7 focus:ring-0 focus-visible:ring-0 dark:bg-transparent outline-none overflow-y-hidden h-[30px] "
             ></textarea>
             <button className="absolute p-1 rounded-md text-gray-400 bottom-1.5 right-1 md:bottom-2.5 md:right-2 hover:bg-black">
               <PlaneIcon />

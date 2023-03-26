@@ -127,7 +127,7 @@ const RightSection = () => {
 
                           {subTitle}
                           <div class="flex items-center flex-wrap ">
-                            <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
+                            {/* <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
                               Learn More
                               <svg
                                 class="w-4 h-4 ml-2"
@@ -141,7 +141,7 @@ const RightSection = () => {
                                 <path d="M5 12h14"></path>
                                 <path d="M12 5l7 7-7 7"></path>
                               </svg>
-                            </a>
+                            </a> */}
 
 
                           </div>
